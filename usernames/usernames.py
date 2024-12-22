@@ -1,7 +1,5 @@
 import requests
-username = None
-print("Hello")
-print(input("Username: ", username))
+username = input()
 
 s = requests.Session()
 s.get('https://www.facebook.com/{}', username)
